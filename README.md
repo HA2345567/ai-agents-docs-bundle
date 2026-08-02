@@ -1,4 +1,4 @@
-# 🤖 AI Agents — The Complete Engineering Reference
+# AI Agents — The Complete Engineering Reference / Docs Bundler
 
 > A structured, docs-first learning path for AI Agents — from LLM fundamentals to production deployment. Every chapter follows the same rigorous template: concept → why it matters → mental model → diagrams → official docs → papers → code → pitfalls → production practices → security → exercises → interview questions.
 
@@ -45,6 +45,7 @@ Every chapter in `/docs` follows this template, in this order:
 | 11 | [Security & Ethics](docs/11-security.md) | 🟡 Stub | Advanced / Production |
 | 12 | [Courses & Communities](docs/12-courses-communities.md) | 🟡 Stub | All levels |
 | 13 | [Free YouTube Channels](docs/13-youtube-channels.md) | ✅ Complete & link-verified | All levels |
+| 14 | [Seminal Research Papers](docs/14-research-papers.md) | ✅ Complete | All levels |
 | 16 | [Best Books](docs/16-books.md) | ✅ Complete & verified | All levels |
 
 **Legend:** ✅ Complete (full 14-point template) · 🟡 Stub (structure + key links in place, full treatment pending)
