@@ -1,46 +1,31 @@
-# Contributing to Awesome AI Agents — The Complete Learning Roadmap
+# Contributing
 
-Thank you for taking the time to contribute! This repository is a highly curated, single-file reference for learning about AI Agents end-to-end. We aim to keep links high-quality, up-to-date, and well-structured.
+Thanks for helping improve this repo. To keep it coherent as a learning path, every chapter must follow the same 14-point template (see [README.md](README.md#how-chapters-are-structured)):
 
-By contributing, you help developers access the best possible learning resources.
+1. Plain-language explanation
+2. Why it matters
+3. Mental model / analogy
+4. Diagram(s) (Mermaid — GitHub renders these natively, no image files needed)
+5. Official documentation (linked first, before secondary sources)
+6. High-quality secondary resources
+7. Seminal papers (prefer arXiv links)
+8. Implementation example(s) — working code, no pseudocode where a real snippet is feasible
+9. Common mistakes & debugging
+10. Production best practices
+11. Security considerations
+12. Exercises & project ideas
+13. Interview questions
+14. Related concepts & further reading (link to other chapters)
 
----
+## Rules
 
-## How to Contribute
+- **Official docs before opinion pieces.** Every claim about how a specific API/SDK behaves should link the vendor's docs, not a blog's paraphrase of them.
+- **Mark experimental features explicitly** — don't let a beta API read as stable.
+- **No outdated APIs.** If you're citing a framework version, check it's current before submitting.
+- **Comparison tables must be objective** — capabilities, trade-offs, maturity, licensing, ecosystem. No unstated opinions dressed as fact.
+- **Update the status table in README.md** (🟡 Stub → ✅ Complete) when a chapter is finished.
+- Keep prose concise — this is a reference, not an essay collection.
 
-### 1. Recommending New Resources
-If you find a high-quality resource (official documentation, engineering blogs, seminal papers, or advanced guides) that covers a topic on the roadmap:
-*   Make sure it is **high signal and technical**. We prefer primary sources, official guides, and deep-dive engineering blogs over high-level overview articles.
-*   Find the appropriate section in [README.md](README.md) and add it to the table or bullet list.
-*   Follow the existing format strictly (Resource Name, Source/Type, URL).
+## Turning a stub into a complete chapter
 
-### 2. Updating Outdated Information
-Agent architectures, protocols (like MCP), and libraries evolve extremely fast. If you notice:
-*   A link is broken or redirects incorrectly.
-*   A framework comparison is outdated.
-*   A new industry standard protocol has emerged.
-Please open a Pull Request to update the link or explanation.
-
-### 3. Reporting Typos
-For minor fixes like spelling mistakes or formatting errors, feel free to open a Pull Request directly.
-
----
-
-## Pull Request Process
-
-1. **Fork the repository** and create your branch from `main`:
-   ```bash
-   git checkout -b feature/suggest-new-resource
-   ```
-2. **Make your changes:**
-   - Ensure the markdown tables render correctly.
-   - Run a quick manual check on any links you add to ensure they are active.
-3. **Commit your changes:**
-   - Use clear and descriptive commit messages (e.g., `docs: add Peter Osmani's outer loop article to section 3`).
-4. **Push to your fork** and submit a Pull Request.
-
----
-
-## Code of Conduct
-
-Please be respectful, collaborative, and welcoming to all members of the community.
+Pick a 🟡 chapter from the README table, fill in all 14 sections following the pattern in `docs/01-llm-fundamentals.md`, `docs/03-agent-fundamentals.md`, or `docs/04-tools-function-calling.md` (the current reference examples), and open a PR.
