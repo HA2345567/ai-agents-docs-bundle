@@ -31,6 +31,14 @@
 - Role-based multi-agent teams, fastest prototyping → CrewAI
 - RAG-heavy, document-grounded agents → LlamaIndex
 
+## LLM Gateways & Routers
+As you scale your agentic workflows across different models and frameworks, managing key rotation, retries, caching, and fallback logic manually becomes complex. **LLM Gateways** act as a single proxy layer for all model queries.
+
+| Gateway / Proxy | Core Features | Docs |
+|---|---|---|
+| **LiteLLM** | Translate inputs/outputs to 100+ LLM APIs using OpenAI format, load balance, track spend | [docs.litellm.ai](https://docs.litellm.ai/) |
+| **Portkey** | Production gateway with prompt management, semantic caching, routing, and guardrails integration | [docs.portkey.ai](https://docs.portkey.ai/) |
+
 ## High-quality secondary resources
 - [A Detailed Comparison of Top 6 AI Agent Frameworks in 2026 — Turing](https://www.turing.com/resources/ai-agent-frameworks)
 - [Comparative Study: LangGraph vs LlamaIndex vs CrewAI with IBM Watsonx.ai — Medium](https://medium.com/@ashgadag/comparative-study-langgraph-vs-llamaindex-vs-crewai-agents-with-ibm-watsonx-ai-c01ceb14ea45)

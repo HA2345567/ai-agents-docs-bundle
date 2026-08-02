@@ -42,6 +42,7 @@ sequenceDiagram
 
 - [LLM Function Calling and Tool Use Guide 2026 — RockB](https://baeseokjae.github.io/posts/llm-function-calling-tool-use-guide-2026/) — best side-by-side comparison of OpenAI vs. Anthropic vs. Gemini schemas with working code
 - [Native Function Calling: How OpenAI, Claude & Gemini Really Work — Medium](https://medium.com/@vikassanmacs0609/native-function-calling-how-openai-claude-gemini-really-work-b3bad4dee182) — includes local models via Ollama
+- [Dynamic Tool Output Compression — When AI Agents Context Exceeds — Medium](https://medium.com/@addyosmani/dynamic-tool-output-compression) — Design pattern detailing how to compress large tool outputs dynamically into placeholders to prevent context rot.
 
 ## 7. Seminal Papers
 

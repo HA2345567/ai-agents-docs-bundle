@@ -25,7 +25,9 @@ Agents often ingest private user logs or emails. Redacting Personally Identifiab
 *   **Microsoft Presidio:** [microsoft.github.io/presidio](https://microsoft.github.io/presidio/) — The standard open-source library for scanning and redacting sensitive text.
 
 ## Bias, Toxicity & Safety Guardrails
-Enforcing boundary layers on agent inputs and outputs prevents toxic generation or prompt injection bypasses.
+Enforcing boundary layers on agent inputs and outputs prevents toxic generation, PII leaks, or prompt injection bypasses.
+*   **Google Cloud Model Armor:** [cloud.google.com/model-armor](https://cloud.google.com/model-armor) — An enterprise AI security layer ("AI firewall") designed to filter prompt injections, safety risks, toxicity, and sensitive data leakage (PII) for any cloud model.
+*   **Guardrails with LangChain:** [python.langchain.com/docs/concepts/#guardrails](https://python.langchain.com/docs/concepts/#guardrails) — Standard middleware systems and Human-in-the-Loop (HITL) checkpoints in LangGraph/LangChain to validate outputs or restrict tool access dynamically.
 *   **NVIDIA NeMo Guardrails:** [docs.nvidia.com/nemo/guardrails](https://docs.nvidia.com/nemo/guardrails/) — Programmable guardrails for LLM conversational safety.
 *   **Llama Guard:** [huggingface.co/meta-llama/Llama-Guard-3](https://huggingface.co/meta-llama/Llama-Guard-3) — Fine-tuned models for input-output moderation.
 

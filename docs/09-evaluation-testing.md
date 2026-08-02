@@ -22,6 +22,11 @@
 | **DeepEval** | pytest-style unit testing, CI/CD friendly | Open source | [docs.confident-ai.com](https://docs.confident-ai.com) |
 | **Promptfoo** | Red-teaming / adversarial testing, OWASP LLM Top 10 suites | Open source (MIT) | [promptfoo.dev/docs](https://www.promptfoo.dev/docs/red-team/owasp-llm-top-10/) |
 
+## LLM-as-a-Judge (G-Eval)
+Using a capable model (like Claude 3.5 Sonnet or GPT-4o) as an evaluator ("judge") to grade agent outputs based on custom rubrics. This replaces slow and costly human grading with structured, automated criteria.
+*   **Model-Based Evaluation Guides:** [langfuse.com/docs/scores/model-based-evals](https://langfuse.com/docs/scores/model-based-evals) (Langfuse conceptual walkthrough).
+*   **G-Eval: NLG Evaluation with Chain-of-Thought:** Explains scoring outputs with reasoning steps using OpenAI/Claude. Covered in [docs.confident-ai.com/docs/evaluation-metrics-g-eval](https://docs.confident-ai.com/docs/evaluation-metrics-g-eval) (DeepEval G-Eval implementation).
+
 ## High-quality secondary resources
 - [DeepEval vs. RAGAS vs. LangSmith — Descope](https://www.descope.com/blog/post/deepeval-vs-ragas-vs-langsmith) — clearest breakdown of when to use which
 - [DeepEval vs RAGAS (2026) — genai.qa](https://genai.qa/blog/deepeval-vs-ragas/)
